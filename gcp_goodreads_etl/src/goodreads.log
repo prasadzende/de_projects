@@ -1,0 +1,15 @@
+2022-12-19 18:03:08,480 root         DEBUG    
+
+Setting up Spark Session...
+2022-12-19 18:03:08,481 root         DEBUG    
+
+Copying data from storage landing zone to ...
+2022-12-19 18:03:08,485 root         DEBUG    Inside storage_move_data : Source bucket set is : training_landing_zone
+ Target bucket set is : training_working_zone
+2022-12-19 18:03:08,486 root         DEBUG    Cleaning bucket : training_working_zone
+2022-12-19 18:03:10,111 root         DEBUG    Inspecting bucket : training_landing_zone for files present
+2022-12-19 18:03:10,418 root         DEBUG    Copying file <Blob: training_landing_zone, author.csv, 1671446969498538> from training_landing_zone to training_working_zone
+2022-12-19 18:03:11,114 root         DEBUG    Copying file <Blob: training_landing_zone, book.csv, 1671446980411519> from training_landing_zone to training_working_zone
+2022-12-19 18:03:11,867 root         DEBUG    Copying file <Blob: training_landing_zone, reviews.csv, 1671446971116381> from training_landing_zone to training_working_zone
+2022-12-19 18:03:12,590 root         DEBUG    Copying file <Blob: training_landing_zone, user.csv, 1671446975379729> from training_landing_zone to training_working_zone
+2022-12-19 18:03:13,388 root         DEBUG    Inspecting bucket : training_working_zone for files present
